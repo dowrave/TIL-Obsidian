@@ -1,0 +1,3 @@
+- 값 범위를 양쪽에 지정하고 싶을 때, `()`를 2번 쓰는 대신 사용한다
+- `pd.series.between(left, right, inclusive = "both")`
+	- 반환값은 `Boolean Array`니까 **조건문에 쓰면 됨**

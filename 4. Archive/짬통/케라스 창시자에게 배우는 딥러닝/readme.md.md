@@ -1,0 +1,1 @@
+- 실습 파일은 [TIL 레포지토리](https://github.com/dowrave/TIL/tree/main/NotObsidian/%EC%BC%80%EB%9D%BC%EC%8A%A4%20%EC%B0%BD%EC%8B%9C%EC%9E%90%EC%97%90%EA%B2%8C%20%EB%B0%B0%EC%9A%B0%EB%8A%94%20%EB%94%A5%EB%9F%AC%EB%8B%9D)에서 관리중!
