@@ -58,9 +58,6 @@
 >	- GDC 강의 : UX 관련
 >	- NDC 강의 : 2026 기술 면접 관련
 
-
-
-
 ### [[짭명방_260722]]
 >[!done]
 >- `EnemyStunState`, `EnemyDeathState` 구현
@@ -89,21 +86,6 @@
 > 		- `PathController` 리팩토링
 > 	- `Barricade` 위치에 도착했음에도 파괴하지 않는 현상(간헐적 - 수정 완료)
 - [[CPU 연산 - 제곱과 제곱근 비교]]
-
-### [[짭명방_260714]]
->[!done]
->- `Combat` 상태 구현 완료
->	- FSM에서 "감지"와 "전환 판단"의 책임 분리
->	- `EnemyAttackController.OnUpdate()` 코드 리뷰
->	- 반환 타입: `bool` vs `enum`
->	- `EnemySkillController` 추가 및 `EnemyBoss` 확장
->		- `CombatState`에서 스킬과 공격을 모두 처리하도록 처리했음
->	- Combat ↔ Move 오실레이션 버그 두 가지 발견 및 수정 방향
-- 아직 `Move`는 처리할 게 좀 있음
-
-### [[짭명방_260713]]
->[!wip]
-> - `Enemy`의 `FSM` 구현하기 : 학습과 구현  기초
 
 ## 최근 작업 내용 - 블로그
 - 마지막 수정 내역 : [[블로그_260723 - 불편한 것들 해결]]
