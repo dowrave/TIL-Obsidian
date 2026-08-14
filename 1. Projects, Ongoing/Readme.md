@@ -17,9 +17,13 @@
 > - `Artillery`의 공격 효과음이 제대로 나오지 않는 현상
 
 >[!note]
->- **마무리 작업**
->1. 최초 메인 화면 진입 전의 화면 구현
->2. 엔딩 구현
+>- 할 일들 
+>1. `TitleScene`이랑 `GameManagement`, `GameSession` 등을 구현하면서 게임의 전체적인 로직이 틀어지는 현상이 있다. 일단 전반적으로 데이터 관리 흐름을 점검함.
+>2. `TitleScene` 완성하기
+>	- 도형 완성
+>	- 게임 시작 시 연출 (도형이 멀어지면서 로딩게이지 양 끝에서 가운데로 모이는 현상, 명방의 그것)
+>- 2까지 한 다음 프로젝트 일시정지하고 자료구조 책 다 공부한 다음 엔딩 크레딧 정도만 만들고 끝낼 예정이다. 
+
 
 >[!note]
 >- 마지막 맵 테스트 전 추가로 구현하고 싶은 것들
@@ -27,6 +31,18 @@
 >- `LightningHit`의 소리가 겹칠 때 너무 커진다. 갯수는 2개로 제한했는데도 그런데, 이전처럼 관리하고 제어하는 방법밖에 없나?
 
 ## 최근 5일
+
+### 260814
+- [[짭명방_260814]]
+>[!done]
+>- `TitleScene` 도형 구조 수정
+>- `TitleScene` 구현
+>	- 구현 중 이슈 수정
+>		- 최초 씬이 옮겨지면서 `TutorialManager`의 동작도 수정되어야 함
+>		- `SceneLoader` 메서드들 수정
+>		- `GameManagement`(게임 전체) / `GameSession`(세이브 파일 정보) 로 `DontDestroyOnLoad` 요소들 구분
+>		- `PlayerDataManager`을 `GameDataManager(GameManagement)`와 `PlayerSessionDataManager(GameSession)`으로 구분
+>	- `TitleScene`부터 시작하는 흐름 수정 중
 
 ### 260813
 - [[짭명방_260813]]
