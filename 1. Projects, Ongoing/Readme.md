@@ -32,6 +32,16 @@
 
 ## 최근 5일
 
+### 260815
+- 책 목차 + Claude로 공부한 내용.
+- [[Effective Csharp - 1. Csharp 언어 요소]]
+- [[Effective Csharp - 2. .NET 리소스 관리]]
+- [[Effective Csharp - 3. 제네릭 활용]]
+- [[Effective Csharp - 4. LINQ 활용]]
+- [[Effective Csharp - 5. 예외 처리]]
+- [[Effective CSharp - 유니티 관점의 요약]]
+- [[Csharp - 클로저(Closure)]]
+	- 클로저 예제 틀리는 거 보면 Claude를 믿어도 되나? 싶긴 했다. 대체로 맞겠지...
 ### 260814
 - [[짭명방_260814]]
 >[!done]
