@@ -34,7 +34,8 @@
 
 ### 260817
 - [[자료구조 - 5. 스택]]
-
+- [[자료구조 - 6. 큐]]
+- 자료구조 공부 중 클로드에 사용할 `SKILL.md`을 만들고 다듬었다. 
 ### 260815
 - 책 목차 + Claude로 공부한 내용.
 - [[Effective Csharp - 1. Csharp 언어 요소]]
@@ -75,26 +76,6 @@
 >	- 배치가 제대로 되지 않는 현상
 >2. 추가 이슈
 >	- `IsTargetInRange` 동작 이슈
-### 260810
-- [[짭명방_260810]]
->[!done]
->-  기타 수정
->	- 프로퍼티와 백킹 필드 사용에 관해
-### 260806
-- [[짭명방_260806]]
->[!done]
->1. AttackType, AttackRangeType 필드 위치 - `Status.Stat`으로 설정
->2. `Enemy` 컨트롤러 세부 구현
->3. 테스트 중 - 기타 이슈 발생 중
-### 260805
-- [[짭명방_260805]]
->[!done]
->- 또팩토링 : `UnitEntity`의 컨트롤러들 구조 고치기 (유사 파사드 패턴)
->	- `UnitEntity` : `_buff, _health, _stat`을 `UnitStatusController`인 `_status`의 아래로 묶었음
->	- `DeployableUnitEntity` : `_deployable` 1개만 있으므로 현상태 유지
->	- `Operator` : `_action, _block, _skill`을 `OpCombatController`인 `_combat`의 아래로 묶음
->- 막힌 지점
-> 	- `AttackType`, `AttackRangeType`의 관리
 
 ### 최근 작업 내용 - 블로그
 - 마지막 수정 내역 : [[블로그_260723 - 불편한 것들 해결]]
