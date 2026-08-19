@@ -1,3 +1,5 @@
+#Csharp #EffectiveCsharp
+
 1. GC 할당을 의식하라
 	- **`Update()`류의 핫패스에서 박싱, LINQ, 클로저, 불필요한 `new`를 피하는 게 유니티 최적화의 8할.**
 

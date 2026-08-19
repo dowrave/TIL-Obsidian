@@ -1,3 +1,4 @@
+#Csharp #EffectiveCsharp 
 
 1. [[#1. 지역변수를 선언할 때는 `var`을 쓰는 게 낫다|1. 지역변수를 선언할 때는 `var`을 쓰는 게 낫다]]
 2. [[#2. `const`보다는 `readonly`가 좋다|2. `const`보다는 `readonly`가 좋다]]
