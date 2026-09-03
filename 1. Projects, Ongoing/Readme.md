@@ -19,7 +19,7 @@
 >- 엔딩 크레딧 관련
 
 
-## 최근 5일
+## 최근 기록
 
 ### 260902
 - [[짭명방_260902]]
@@ -36,48 +36,6 @@
 - 타이틀로 돌아가기 관련
 	- 현재까지의 진행 상황을 저장하고 돌아가기 외에, 저장하지 않고 돌아가는 기능을 추가해야 하나?
 	- 근데 **한 세션에 여러 개의 세이브 슬롯을 갖는 게임이 아니라서 굳이 필요없어보이긴 한다.**
-
-### 260831
-- [[짭명방_260831]]
->[!done]
->- `GlobalPopupManager / PersistantCanvas` 구현
->	- 여러 씬에서 공통으로 사용할 팝업을 관리
->	- `NotificationToastManager`도 `ToastManager`로 이름 변경 후 `GameManagement`로 이사감
->- `SaveSlotLayout` 작업하기
->	- 삭제, 시작, 뒤로 가기 버튼 구현
->	- (TODO) 세부적인 동작은 구현 필요
-### 260829
-- [[짭명방_260829]]
->[!done]
->- 기타 이슈
->	- 이미지 비율 깨지는 현상 : [[유니티 - 9슬라이싱 스프라이트]]
->	- 공통 스타일 관리 방법...은 일단 SO만 만들어두고 이 데이터를 참조로 눈으로 색을 집어넣는 방식으로 구현
-
->[!wip]
->- `TitleLayout` 만들기
->	- 시작 / 계속하기에 따른 기능 분리
-
-### 260828
->[!wip]
->- 세이브, 로드 시스템 구현
->	1. `SaveSlot`의 구체적인 형태 구현
->	2. `TitleManager`와 `SaveSlotManager`의 기능 일부를 `MainLayout`과 `SaveSlotLayout`으로 분리
->		- `Layout`에서 `Manager`에 요청을 보내서 정보를 읽어오는 방식
->- 일반적인 유니티의 코드 컨벤션을 정리하려다가 말았다. 
-
-### 260826
-- [[짭명방_260826]]
->[!done]
->1. SaveSlotPanel 구현
->2. 기타 수정 사항과 질문/답변
->	- `SaveSlotManager`의 위치 수정
->	- 메서드를 어떻게 작성해야 하는가?
->		- 토글 메서드
->		- 기능에 따른 메서드 분리
-### 260825
-- [[짭명방_260825]]
->[!done]
->1. 데이터 저장 방식 `PlayerPrefs`에서 `Application.persistantDataPath`로 변경, 옵션 관련 설정을 제외한 데이터 저장 방식을 전부 변경.
 
 ## 짭명방
 - [짭명방 프로젝트 일지 깃허브 링크(프로젝트 자체는 Private 전환)](https://github.com/dowrave/TIL/tree/main/Obsidian/1.%20Projects%2C%20Ongoing/%EC%9C%A0%EB%8B%88%ED%8B%B0%20-%20%EC%9E%91%EC%9D%80%20%EB%AA%85%EB%B0%A9%20%EA%B5%AC%ED%98%84%ED%95%98%EA%B8%B0/%EC%9E%91%EC%97%85%20%EC%9D%BC%EC%A7%80/%EC%A7%81%EC%A0%91%20%EC%9E%91%EC%84%B1)
