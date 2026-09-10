@@ -20,19 +20,19 @@
 
 
 ## 최근 기록
-
-### 260903
-- [[짭명방_260903]]
-	- [[유니티 - 최초 비활성화 오브젝트의 초기화]]
-	- [[유니티 - 레이아웃 컨테이너의 역할]]
+- [[짭명방_260910]]
 >[!done]
->- `TitleScene`의 레이아웃 구조 수정
->	- 모든 레이아웃이 활성화 상태, 투명도만 조절함
+>- 에디터 기능 추가 : 수동 컴파일
 >- 이슈 수정
->	- `SaveSLot` 관련 이슈들
->		- 데이터가 똑같이 들어가는데 레이아웃이 깨짐
->		- 데이터 삭제 후 빈 슬롯에 삭제 / 확인이 여전히 활성화됨
->		- 프리팹에 나타난 형태와 플레이 중일 때의 형태가 달라짐
+>	- `TitleScene` : `SaveSlot`, `OpGrowthPreviewItem` 관련
+>		- `OpGrowthPreviewItem`이 미리 생성되는 문제.
+>		- `OpGrowthPreviewItem` 프리팹 구조 수정
+>		- `SaveSlot`에 생성되는 `OpGrowthPreviewItem` 레이아웃이 깨지는 문제
+>		- `OpGrowthPreviewItem`의 무한 `Instantiate` 문제
+>	- `PopupBase`에 애니메이션 적용
+>		- `OptionPopup` 씬 전환 시 일부 컨테이너가 사라지지 않는 문제
+
+내일은 세션 진입 시 로딩 화면 구현하고 발견되는 일련의 버그들도 수정함
 
 ## 짭명방
 - [짭명방 프로젝트 일지 깃허브 링크(프로젝트 자체는 Private 전환)](https://github.com/dowrave/TIL/tree/main/Obsidian/1.%20Projects%2C%20Ongoing/%EC%9C%A0%EB%8B%88%ED%8B%B0%20-%20%EC%9E%91%EC%9D%80%20%EB%AA%85%EB%B0%A9%20%EA%B5%AC%ED%98%84%ED%95%98%EA%B8%B0/%EC%9E%91%EC%97%85%20%EC%9D%BC%EC%A7%80/%EC%A7%81%EC%A0%91%20%EC%9E%91%EC%84%B1)
