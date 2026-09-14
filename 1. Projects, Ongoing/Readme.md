@@ -20,19 +20,13 @@
 
 
 ## 최근 기록
-- [[짭명방_260910]]
+- [[짭명방_260914]]
 >[!done]
->- 에디터 기능 추가 : 수동 컴파일
->- 이슈 수정
->	- `TitleScene` : `SaveSlot`, `OpGrowthPreviewItem` 관련
->		- `OpGrowthPreviewItem`이 미리 생성되는 문제.
->		- `OpGrowthPreviewItem` 프리팹 구조 수정
->		- `SaveSlot`에 생성되는 `OpGrowthPreviewItem` 레이아웃이 깨지는 문제
->		- `OpGrowthPreviewItem`의 무한 `Instantiate` 문제
->	- `PopupBase`에 애니메이션 적용
->		- `OptionPopup` 씬 전환 시 일부 컨테이너가 사라지지 않는 문제
+>- `TitleScene` 아트
+>	- 화면 반댓쪽의 엣지 보이게 하기
 
-내일은 세션 진입 시 로딩 화면 구현하고 발견되는 일련의 버그들도 수정함
+- 엣지 간에 통신하는 듯한 시각적 효과...는 fail. 내일 진행하기로 한다. 
+- AI로 셰이더 작업을 할 때 HLSL로 작업시키고 그걸 셰이더 그래프로 어떻게 재현하는가?에 초점을 두면 좋을 듯. 오늘 작성한 코드를 바탕으로 해서.
 
 ## 짭명방
 - [짭명방 프로젝트 일지 깃허브 링크(프로젝트 자체는 Private 전환)](https://github.com/dowrave/TIL/tree/main/Obsidian/1.%20Projects%2C%20Ongoing/%EC%9C%A0%EB%8B%88%ED%8B%B0%20-%20%EC%9E%91%EC%9D%80%20%EB%AA%85%EB%B0%A9%20%EA%B5%AC%ED%98%84%ED%95%98%EA%B8%B0/%EC%9E%91%EC%97%85%20%EC%9D%BC%EC%A7%80/%EC%A7%81%EC%A0%91%20%EC%9E%91%EC%84%B1)
