@@ -17,15 +17,14 @@
 >	- 타이틀 씬에 쓸 음악도 필요함
 >- 엔딩 크레딧 관련
 ## 최근 기록
-- [[짭명방_260918 - 타이틀 씬 도형 마무리]]
+- [[짭명방_260921 - 타이틀 씬 도형 수정 및 로딩 게이지]]
 >[!done]
->- TitleScene 아트 구현
->	- 엣지 굵기 변경 가능하게 변경 : `MeshTopology.Lines`에서 리본 메쉬(`MeshTopology.Triangles`)
->		- 삼각형의 도는 방향에 대해 정리
->	- VertexPulse 수정 : 동심원 -> 일정 주기로 크게 깜빡이는 패턴
->		- 각도에 따른 페이딩 계산은 스크립트에서 셰이더 그래프로 옮김
->		- 어두운 버텍스에는 VertexPulse가 나타나지 않음
-
+>- VertexPulse 수정 작업
+>	- 빌보드 적용 안되는 현상
+>	- `sharedMaterial` 사용하도록 변경
+>	- 펄스 동작 수정 : 크기 변경 -> 밝기 변경
+>- 타이틀 씬 진입 시 로딩 게이지 구현
+>	- 연출은 완료, 실제 동작과 연결만 하면 됨
 
 ## 짭명방
 - [짭명방 프로젝트 일지 깃허브 링크(프로젝트 자체는 Private 전환)](https://github.com/dowrave/TIL/tree/main/Obsidian/1.%20Projects%2C%20Ongoing/%EC%9C%A0%EB%8B%88%ED%8B%B0%20-%20%EC%9E%91%EC%9D%80%20%EB%AA%85%EB%B0%A9%20%EA%B5%AC%ED%98%84%ED%95%98%EA%B8%B0/%EC%9E%91%EC%97%85%20%EC%9D%BC%EC%A7%80/%EC%A7%81%EC%A0%91%20%EC%9E%91%EC%84%B1)
