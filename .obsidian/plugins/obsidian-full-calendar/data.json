@@ -1,0 +1,31 @@
+{
+  "calendarSources": [
+    {
+      "type": "local",
+      "color": "#517af5",
+      "directory": "5. Event Note For Calendar/01_작업"
+    },
+    {
+      "type": "local",
+      "color": "#80f999",
+      "directory": "5. Event Note For Calendar/02_독서"
+    },
+    {
+      "type": "local",
+      "color": "#cc6a19",
+      "directory": "5. Event Note For Calendar/03_알바"
+    },
+    {
+      "type": "local",
+      "color": "#f9f8d7",
+      "directory": "5. Event Note For Calendar/04_기타"
+    }
+  ],
+  "defaultCalendar": 0,
+  "firstDay": 0,
+  "initialView": {
+    "desktop": "dayGridMonth",
+    "mobile": "timeGrid3Days"
+  },
+  "timeFormat24h": false
+}

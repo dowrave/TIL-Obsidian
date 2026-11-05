@@ -1,0 +1,4 @@
+div[src$='.png'], div[src$='.svg'] {
+    background-color: rgb(224, 224, 224);
+    filter: opacity(1) drop-shadow(0 0 0 rgb(224, 224, 224));
+}

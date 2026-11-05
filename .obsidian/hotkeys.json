@@ -1,0 +1,20 @@
+{
+  "obsidian-git:commit": [
+    {
+      "modifiers": [],
+      "key": "F11"
+    }
+  ],
+  "obsidian-git:push2": [
+    {
+      "modifiers": [],
+      "key": "F12"
+    }
+  ],
+  "editor:insert-table": [
+    {
+      "modifiers": [],
+      "key": "F5"
+    }
+  ]
+}

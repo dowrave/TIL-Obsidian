@@ -1,8 +1,10 @@
-.obsidian/ 
-
-.obsidian/workspace-mobile.json
+# 기기마다 달라지는 UI 상태 (충돌 방지)
 .obsidian/workspace.json
-.obsidian/app.json
+.obsidian/workspace-mobile.json
 
+# 플러그인 캐시류 (필요 시)
+.obsidian/cache
+
+# 기타
 .trash/
 .DS_Store
