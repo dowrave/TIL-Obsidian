@@ -6,10 +6,11 @@
     "emojiStyle": "native",
     "iconColor": null,
     "recentlyUsedIcons": [
-      "LiBook",
-      "LiFilePen",
-      "LiFileText",
-      "LiFolder"
+      "LiMusic",
+      "LiCalendar",
+      "LiBox",
+      "LiImage",
+      "LiBook"
     ],
     "recentlyUsedIconsSize": 5,
     "rules": [],
@@ -33,13 +34,28 @@
     "debugMode": false,
     "useInternalPlugins": false
   },
-  "1. Projects, Ongoing": "LiFolder",
-  "2. Area": "LiFolder",
-  "3. Resource": "LiFolder",
-  "4. Archive": "LiFolder",
+  "1. Projects, Ongoing": {
+    "iconName": "LiFolder",
+    "iconColor": "#f28763"
+  },
+  "2. Area": {
+    "iconName": "LiFolder",
+    "iconColor": "#e5fb41"
+  },
+  "3. Resource": {
+    "iconName": "LiImage",
+    "iconColor": "#646464"
+  },
+  "4. Archive": {
+    "iconName": "LiBox",
+    "iconColor": "#646464"
+  },
   "1. Projects, Ongoing/유니티 - 작은 명방 구현하기": "LiFolder",
   "1. Projects, Ongoing/README.md": "LiFilePen",
   "2. Area/음악/서적": "LiBook",
-  "5. Event Note For Calendar": "LiFolder",
-  "2. Area/이야기/서적": "LiBook"
+  "5. Event Note For Calendar": {
+    "iconName": "LiCalendar",
+    "iconColor": "#646464"
+  },
+  "2. Area/음악": "LiMusic"
 }
