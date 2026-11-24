@@ -6,11 +6,11 @@
     "emojiStyle": "native",
     "iconColor": null,
     "recentlyUsedIcons": [
+      "LiGamepad2",
+      "LiBook",
+      "LiComputer",
       "LiMusic",
-      "LiCalendar",
-      "LiBox",
-      "LiImage",
-      "LiBook"
+      "LiCalendar"
     ],
     "recentlyUsedIconsSize": 5,
     "rules": [],
@@ -57,5 +57,11 @@
     "iconName": "LiCalendar",
     "iconColor": "#646464"
   },
-  "2. Area/음악": "LiMusic"
+  "2. Area/음악": "LiMusic",
+  "2. Area/컴퓨터/서적": "LiBook",
+  "2. Area/컴퓨터": "LiComputer",
+  "2. Area/이야기, 작법/서적": "LiBook",
+  "2. Area/게임": "LiGamepad2",
+  "2. Area/게임/서적": "LiBook",
+  "2. Area/게임/서적/누구나 쉽게 시작하는 게임 디자인 & 페이퍼 프로토타입": "LiCalendar"
 }
